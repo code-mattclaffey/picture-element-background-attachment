@@ -2,7 +2,7 @@
 This plugin allows you to add a background-attachment: fixed; effect to your picture element.
 
 ## Why should I use this?
-If you are building a CMS and you plan on using picture elements but you need a background-attachment effect. 
+If you are building a CMS and you plan on using picture elements but you need a background-attachment effect.
 
 ## What happens behind the scene
 The JavaScript will create a mirrored image of the current image using 'currentSrc' on the image element. So when you change screen size based on your media attribute it will change the currentSrc of the image, which will then update the mirrored image.
@@ -31,9 +31,8 @@ It is important that you add the the data attribute **data-fixed-picture** to th
 
 ### CSS
 ```
-/* This attribute gets added to the element that gets created from the picture element */
 
-[data-fixed-scroller] {
+.fixed-scroller {
 	background-attachment: fixed;
 	background-size: 100%;
 	height: 100%;

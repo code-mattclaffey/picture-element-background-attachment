@@ -14,7 +14,7 @@ h1, p, a {
 	Crucial Styles
 */
 
-[data-fixed-scroller] {
+.fixed-scroller {
 	background-attachment: fixed;
 	background-size: 100%;
 	height: 100%;
