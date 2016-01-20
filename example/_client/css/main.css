@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, p, a {
+	font-family: Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.4;
+	padding: 1rem 0;
+}
+
+/*
+	Crucial Styles
+*/
+
+[data-fixed-scroller] {
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.picture-element {
+	display: block;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.picture-element__image {
+	display: block;
+	width: 100%;
+}
+
+/*
+	Picture element container
+	Note: Styles can be anything but needs position: relative;
+*/
+
+.banner {
+	color: #fff;
+	display: block;
+	height: 400px;
+	padding-top: 3rem;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.banner__heading {
+	font-size: 4rem;
+	padding: .5rem 0;
+}
+
+.banner__text,
+.banner__cta {
+	font-size: 1rem;
+}
+
+.banner__text {
+	padding-bottom: 3rem;
+}
+
+.banner__cta {
+	background-color: #C93946;
+	border-radius: 10px;
+	border: 0;
+	color: inherit;
+	padding: 1rem 3rem;
+	text-decoration: none;
+}
+
+/*
+	Non-Crucial Styles
+	Note: you dont need these styles its jsut example purpose only.
+*/
+
+.block {
+	display: block;
+	height: 500px;
+}
